@@ -2,6 +2,17 @@
 <template>
   <div id="hero-image">
     <img src="../assets/img/portfolio2-mindre.jpg" alt="Clouds" />
+    <div id="hero-container">
+      <div class="heading"><h2>HELLO, YOU.</h2></div>
+      <div class="intro-text">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum is simply dummy text of the printing and
+          typesetting industry. Lorem Ipsum is simply dummy text of the printing
+          and typesetting industry.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -34,5 +45,42 @@
     height: 80vh;
     overflow-x: hidden;
   }
+}
+
+@media (min-width: 1200px) {
+  #hero-image img {
+    margin: 0 auto;
+    height: 100vh;
+    overflow-x: hidden;
+  }
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-50%, -45%);
+  color: rgb(47, 56, 39);
+}
+
+.heading h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.intro-text {
+  position: absolute;
+  width: 20vw;
+  top: 60%;
+  left: 44%;
+  /* bottom: 50%; */
+  /* right: 50%; */
+  margin-left: 10vw;
+  margin-top: 3vh;
+  transform: translate(-50%, -50%);
+  color: rgb(47, 56, 39);
 }
 </style>
