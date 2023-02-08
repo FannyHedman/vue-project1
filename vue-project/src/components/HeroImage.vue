@@ -2,17 +2,16 @@
 <template>
   <div id="hero-image">
     <img src="../assets/img/portfolio2-mindre.jpg" alt="Clouds" />
-    <div id="hero-container">
-      <div class="heading"><h2>HELLO, YOU.</h2></div>
-      <div class="intro-text">
+
+    <div class="heading"><h2>HELLO, YOU.</h2></div>
+    <!-- <div class="intro-text">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum is simply dummy text of the printing and
           typesetting industry. Lorem Ipsum is simply dummy text of the printing
           and typesetting industry.
         </p>
-      </div>
-    </div>
+      </div> -->
   </div>
 </template>
 
@@ -24,44 +23,63 @@
   overflow-x: hidden;
 }
 
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 320px) {
   #hero-image img {
     margin: 0 auto;
-    height: 50vh;
+    height: auto;
     overflow-x: hidden;
   }
 }
 
-@media (min-width: 450px) and (max-width: 900px) {
+@media (min-width: 600px) {
   #hero-image img {
     margin: 0 auto;
-    height: 60vh;
-    overflow-x: hidden;
-  }
-}
-@media (min-width: 900px) and (max-width: 1200px) {
-  #hero-image img {
-    margin: 0 auto;
-    height: 80vh;
+    height: auto;
     overflow-x: hidden;
   }
 }
 
+@media (min-width: 900px) {
+  #hero-image img {
+    margin: 0 auto;
+    height: auto;
+    overflow-x: hidden;
+  }
+}
 @media (min-width: 1200px) {
   #hero-image img {
     margin: 0 auto;
-    height: 100vh;
+    height: auto;
     overflow-x: hidden;
   }
 }
 
+@media (min-width: 1600px) {
+  #hero-image img {
+    margin: 0 auto;
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 2500px) {
+  #hero-image img {
+    margin: 0 auto;
+    height: auto;
+    overflow-x: hidden;
+  }
+}
+
+#hero-image {
+  position: absolute;
+}
 .heading {
   position: absolute;
   top: 50%;
-  left: 45%;
-  bottom: 50%;
-  right: 50%;
-  transform: translate(-50%, -45%);
+  left: 50%;
+  /* bottom: 50%; */
+  right: 40%;
+  transform: translate(-50%, -50%);
   color: rgb(47, 56, 39);
 }
 
@@ -71,16 +89,14 @@
   text-align: left;
 }
 
-.intro-text {
+/* .intro-text {
   position: absolute;
   width: 20vw;
   top: 60%;
   left: 44%;
-  /* bottom: 50%; */
-  /* right: 50%; */
   margin-left: 10vw;
   margin-top: 3vh;
   transform: translate(-50%, -50%);
   color: rgb(47, 56, 39);
-}
+} */
 </style>

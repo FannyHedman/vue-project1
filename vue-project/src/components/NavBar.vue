@@ -5,7 +5,7 @@ import { RouterLink, RouterView } from "vue-router";
 <template>
   <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container-fluid">
-      <h2 id="my-name">Fanny Hedman</h2>
+      <!-- <h2 id="my-name">Fanny Hedman</h2> -->
       <button
         class="navbar-toggler"
         type="button"
@@ -41,14 +41,14 @@ import { RouterLink, RouterView } from "vue-router";
 
 <style scoped>
 #navbar {
-  background-color: rgb(13, 27, 132);
+  background-color: rgb(252, 252, 252);
   height: 10vh;
 }
 
 #my-name {
-  color: rgb(255, 255, 255);
+  color: #321319;
   font-family: monospace;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler {
@@ -56,6 +56,7 @@ import { RouterLink, RouterView } from "vue-router";
 }
 
 .nav-link {
-  color: white;
+  color: #321319;
+  font-weight: bold;
 }
 </style>

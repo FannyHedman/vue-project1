@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "HTML"
+  },
+
+  {
+    "id": "2",
+    "name": "CSS"
+  },
+
+  {
+    "id": "3",
+    "name": "Javascript"
+  },
+
+  {
+    "id": "4",
+    "name": "UX & UI-design"
+  },
+
+  {
+    "id": "5",
+    "name": "Vue"
+  },
+
+  {
+    "id": "6",
+    "name": "Agile Development"
+  },
+
+  {
+    "id": "7",
+    "name": "React"
+  },
+
+  {
+    "id": "8",
+    "name": "Full Stack Development"
+  },
+
+  {
+    "id": "9",
+    "name": "CMS"
+  },
+
+  {
+    "id": "10",
+    "name": "Project communication management"
+  }
+]

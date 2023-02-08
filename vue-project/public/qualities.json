@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "quality": "Kind"
+  },
+
+  {
+    "id": "2",
+    "quality": "Inventive"
+  },
+
+  {
+    "id": "3",
+    "quality": "Practical"
+  },
+
+  {
+    "id": "4",
+    "quality": "Creative"
+  },
+
+  {
+    "id": "5",
+    "quality": "Punctual"
+  }
+]

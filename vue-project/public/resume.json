@@ -1,0 +1,31 @@
+[
+  {
+    "id": "1",
+    "work": "Adidas",
+    "year": "2022-"
+  },
+
+  {
+    "id": "2",
+    "work": "ICA",
+    "year": "2014-2022"
+  },
+
+  {
+    "id": "3",
+    "work": "Restaurang AG",
+    "year": "2013-2014"
+  },
+
+  {
+    "id": "4",
+    "work": "Restaurang Piren",
+    "year": "2012-2013"
+  },
+
+  {
+    "id": "5",
+    "work": "Antalis",
+    "year": "2012"
+  }
+]
