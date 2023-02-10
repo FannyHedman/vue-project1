@@ -170,7 +170,7 @@ export default {
 }
 @media (min-width: 600px) {
   .skills-grid-container {
-    /* margin-top: 5vh; */
+    margin-top: 5vh;
     padding-top: 5vh;
     display: grid;
     box-sizing: border-box;
@@ -294,7 +294,7 @@ export default {
 }
 @media (min-width: 900px) {
   .skills-grid-container {
-    /* margin-top: 5vh; */
+    margin-top: 5vh;
     padding-top: 5vh;
     display: grid;
     box-sizing: border-box;
@@ -418,7 +418,7 @@ export default {
 }
 @media (min-width: 1200px) {
   .skills-grid-container {
-    /* margin-top: 5vh; */
+    margin-top: 5vh;
     padding-top: 5vh;
     display: grid;
     box-sizing: border-box;
@@ -542,7 +542,7 @@ export default {
 }
 @media (min-width: 1900px) {
   .skills-grid-container {
-    /* margin-top: 5vh; */
+    margin-top: 5vh;
     padding-top: 5vh;
     display: grid;
     box-sizing: border-box;
