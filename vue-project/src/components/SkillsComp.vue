@@ -1,4 +1,4 @@
-<script>
+<script >
 import axios from "axios";
 export default {
   data() {
@@ -37,7 +37,7 @@ export default {
     </div>
     <div id="courses-list" class="skills-lists">
       <ul>
-        <li v-for="course in courses" :key="course.id">
+        <li v-for="course in courses" :key="course.id" class="skills-text">
           {{ course.name }}
         </li>
       </ul>
@@ -46,7 +46,7 @@ export default {
     <div id="qualities-list" class="skills-lists">
       <div class="vertical"></div>
       <ul>
-        <li v-for="quality in qualities" :key="quality.id">
+        <li v-for="quality in qualities" :key="quality.id" class="skills-text">
           {{ quality.quality }}
         </li>
       </ul>
@@ -54,7 +54,7 @@ export default {
     <h2 id="work-header" class="skills-headers">WORK</h2>
     <div id="work-list" class="skills-lists">
       <ul>
-        <li v-for="work in works" :key="work.id">
+        <li v-for="work in works" :key="work.id" class="skills-text">
           {{ work.work }}
         </li>
       </ul>
@@ -63,7 +63,7 @@ export default {
 </template>
 
 <style>
-@media (min-width: 320px) {
+@media only screen and (max-width: 599px) {
   .skills-grid-container {
     padding-top: 5vh;
     display: grid;
@@ -72,29 +72,31 @@ export default {
     border-top-left-radius: 400px;
     border-bottom-right-radius: 900px;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.2fr 1fr 0.2fr 0.5fr 0.2fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr 0.5fr 0.2fr 0.5fr;
     gap: 10px;
-    justify-items: center;
+    justify-items: left;
     align-items: center;
   }
 
   .skills-headers {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-family: Fira Code;
-    /* width: 20vw; */
     font-weight: bold;
     margin-top: 5vh;
+    margin-left: 5vw;
+  }
+
+  .skills-text {
+    font-size: 1rem;
   }
 
   #courses-header {
-    font-size: 2rem;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
-    /* margin-right: 30%;
-    margin-left: 30%; */
   }
+
   #courses-list {
     list-style-type: none;
     grid-column-start: 1;
@@ -108,7 +110,7 @@ export default {
   }
 
   .skills-lists ul li {
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
   }
 
   #qualities-header {
@@ -116,8 +118,6 @@ export default {
     grid-column-end: 1;
     grid-row-start: 3;
     grid-row-end: 3;
-    margin-right: 50%;
-    margin-left: 59%;
     margin-top: 5vh;
   }
 
@@ -145,16 +145,10 @@ export default {
 
   .vertical {
     display: none;
-    /* margin-top: 0.5vh; */
   }
 
   .finished-courses {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-    margin-left: 45vw;
-    margin-top: 1vh;
+    display: none;
   }
 
   #finished {
@@ -164,7 +158,7 @@ export default {
 
   #unfinished {
     background-color: #848282;
-    border: 2px solid #737373;
+    border: 2px solid #848282;
   }
 
   .horizontal {
@@ -180,7 +174,7 @@ export default {
     padding-top: 5vh;
     display: grid;
     box-sizing: border-box;
-    background-color: rgba(157, 217, 217, 0.444);
+    background-color: rgba(157, 199, 217, 0.444);
     /* border-end-start-radius: 40px; */
     /* border-top-left-radius: 150px; */
     border-top-left-radius: 400px;
@@ -199,6 +193,10 @@ export default {
     width: 20vw;
     font-weight: bold;
     margin-top: 5vh;
+  }
+
+  .skills-text {
+    font-size: 1rem;
   }
 
   #courses-header {
@@ -284,7 +282,7 @@ export default {
 
   #unfinished {
     background-color: #848282;
-    border: 2px solid #737373;
+    border: 2px solid #848282;
   }
 
   .horizontal {
@@ -321,6 +319,10 @@ export default {
     margin-top: 5vh;
   }
 
+  .skills-text {
+    font-size: 1rem;
+  }
+
   #courses-header {
     font-size: 2rem;
     grid-column-start: 1;
@@ -404,7 +406,7 @@ export default {
 
   #unfinished {
     background-color: #848282;
-    border: 2px solid #737373;
+    border: 2px solid #848282;
   }
 
   .horizontal {
@@ -441,6 +443,10 @@ export default {
     margin-top: 5vh;
   }
 
+  .skills-text {
+    font-size: 1rem;
+  }
+
   #courses-header {
     font-size: 2rem;
     grid-column-start: 1;
@@ -524,7 +530,7 @@ export default {
 
   #unfinished {
     background-color: #848282;
-    border: 2px solid #737373;
+    border: 2px solid #848282;
   }
 
   .horizontal {
@@ -559,6 +565,10 @@ export default {
     width: 20vw;
     font-weight: bold;
     margin-top: 5vh;
+  }
+
+  .skills-text {
+    font-size: 1rem;
   }
 
   #courses-header {
@@ -644,7 +654,7 @@ export default {
 
   #unfinished {
     background-color: #848282;
-    border: 2px solid #737373;
+    border: 2px solid #848282;
   }
 
   .horizontal {

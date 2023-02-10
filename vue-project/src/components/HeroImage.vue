@@ -1,9 +1,11 @@
-<script></script>
+<script>
+// import { RouterView } from "vue-router";
+</script>
 <template>
   <div id="hero-image">
     <img src="../assets/img/portfolio2-mindre.jpg" alt="Clouds" />
 
-    <div class="heading"><h2>HELLO, YOU.</h2></div>
+    <div class="heading"><h2>HEJSAN, HOPPSAN.</h2></div>
     <!-- <div class="intro-text">
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -13,6 +15,7 @@
         </p>
       </div> -->
   </div>
+  <!-- <RouterView/> -->
 </template>
 
 <style scoped>
@@ -71,7 +74,7 @@
 }
 
 #hero-image {
-  position: absolute;
+  /* position: absolute; */
 }
 .heading {
   position: absolute;

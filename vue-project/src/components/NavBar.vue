@@ -1,11 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg" id="navbar">
+  <!-- <nav class="navbar navbar-expand-lg" id="navbar">
     <div class="container-fluid">
-      <!-- <h2 id="my-name">Fanny Hedman</h2> -->
+      <h2 id="my-name">Fanny Hedman</h2>
       <button
         class="navbar-toggler"
         type="button"
@@ -31,18 +31,40 @@ import { RouterLink, RouterView } from "vue-router";
           <li class="nav-item">
             <RouterLink class="nav-link" to="/contact">CONTACT</RouterLink>
           </li>
+          <li class="nav-item">
+            <RouterLink class="nav-link" to="/test">TEST</RouterLink>
+          </li>
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
-  <RouterView />
+  <nav>
+    <div class="navbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item" aria-current="page">
+          <RouterLink class="nav-link" to="/">HOME</RouterLink>
+        </li>
+        <li class="nav-item" aria-current="page">
+          <RouterLink class="nav-link" to="/about">ABOUT</RouterLink>
+        </li>
+        <li class="nav-item" aria-current="page">
+          <RouterLink class="nav-link" to="/skills">SKILLS</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink class="nav-link" to="/contact">CONTACT</RouterLink>
+        </li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 <style scoped>
 #navbar {
   background-color: rgb(252, 252, 252);
   height: 10vh;
+  position: fixed;
+  width: 100%;
 }
 
 #my-name {
