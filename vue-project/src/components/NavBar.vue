@@ -26,6 +26,7 @@ export default {
       </div>
     </div>
   </nav>
+  <RouterView />
 </template>
 
 <style scoped>

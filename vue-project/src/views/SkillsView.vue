@@ -4,7 +4,7 @@ import SkillsComp from "../components/SkillsComp.vue";
 </script>
 
 <template>
-  <div>
-    <SkillsComp />
-  </div>
+  <!-- <div> -->
+  <SkillsComp />
+  <!-- </div> -->
 </template>
