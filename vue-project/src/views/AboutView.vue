@@ -5,5 +5,3 @@ import AboutMe from "../components/AboutMe.vue";
 <template>
   <AboutMe />
 </template>
-
-
